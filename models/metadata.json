@@ -1,0 +1,41 @@
+{
+  "best_model": "XGBoost (scale_pos_weight)",
+  "test_set_size": 56962,
+  "test_fraud_rate_pct": 0.172,
+  "cv_pr_auc_mean": 0.8476,
+  "cv_pr_auc_std": 0.0186,
+  "metrics": [
+    {
+      "model": "XGBoost (scale_pos_weight)",
+      "precision": 87.23,
+      "recall": 83.67,
+      "f1": 85.42,
+      "roc_auc": 97.75,
+      "pr_auc": 87.6
+    },
+    {
+      "model": "Random Forest (class_weight)",
+      "precision": 84.21,
+      "recall": 81.63,
+      "f1": 82.9,
+      "roc_auc": 97.47,
+      "pr_auc": 82.91
+    },
+    {
+      "model": "Logistic Regression (class_weight)",
+      "precision": 6.09,
+      "recall": 91.84,
+      "f1": 11.41,
+      "roc_auc": 97.22,
+      "pr_auc": 71.89
+    },
+    {
+      "model": "Decision Tree (SMOTE)",
+      "precision": 5.3,
+      "recall": 82.65,
+      "f1": 9.97,
+      "roc_auc": 88.5,
+      "pr_auc": 45.12
+    }
+  ]
+}

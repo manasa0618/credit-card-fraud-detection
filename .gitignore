@@ -1,0 +1,17 @@
+# Dataset — too large for GitHub (150MB), download separately (see README)
+data/creditcard.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS
+.DS_Store
+
+# Misc
+results.csv
+sample_transactions.csv
+sample_predictions.csv
