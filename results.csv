@@ -1,0 +1,5 @@
+model,precision,recall,f1,roc_auc,pr_auc
+XGBoost (scale_pos_weight),87.23,83.67,85.42,97.75,87.6
+Random Forest (class_weight),84.21,81.63,82.9,97.47,82.91
+Logistic Regression (class_weight),6.09,91.84,11.41,97.22,71.89
+Decision Tree (SMOTE),5.3,82.65,9.97,88.5,45.12

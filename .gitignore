@@ -12,6 +12,6 @@ venv/
 .DS_Store
 
 # Misc
-results.csv
+.gitignore
 sample_transactions.csv
 sample_predictions.csv
