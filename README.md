@@ -423,6 +423,6 @@ are considered together.
 
 ## Author
 
-**Ramavath Raju**
+**chinthala manasa**
 
 Machine Learning / Data Analytics Portfolio Project
